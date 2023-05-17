@@ -9,6 +9,6 @@ L1 = ['충청남도','충청북도\n','전라남도','전라북도\n','경상남
 #정수형 리스트
 L2 = [1,2,3,4,5,6]
 #with 구문으로 파일 객체 생성
-with open("D:/SW/실습/data/Line test","w",encoding="utf-8") as f:
+with open("D:/SW/실습/data/Line test.txt","w",encoding="utf-8") as f:
 
     f.writelines(L1)
